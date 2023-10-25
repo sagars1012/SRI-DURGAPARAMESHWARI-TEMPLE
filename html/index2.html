@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Place Descriptions2</title>
+  <style>
+    #hero {
+      text-align: center; /* Center the content within the section */
+    }
+  </style>
+  <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  
+    .mySlides {
+      display: none;
+    }
+  </style>
+  <style>
+  .footer-images {
+  display: inline-block;
+  width: 200px; /* Set a fixed width for each image container */
+  text-align: center; /* Center text within the container */
+  margin-right: 20px; /* Adjust this margin to control spacing between image containers */
+}
+
+.footer-images img {
+  width: 100%; /* Make the image inside each container fill its container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
+
+</style>
+
+<style>
+footer1 {
+  background-color: skyblue;
+}
+
+.copyright {
+  padding: 10px; /* Adjust the padding as needed for the size of the strip */
+  text-align: center;
+}
+</style>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <section id="hero">
+    <h1>Welcome to Ettina Buja</h1>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="entibuja1.jpg" alt="Image 1">
+      </div>
+      <div class="mySlides fade">
+        <img src="etinbuja7.jpg" alt="Image 2">
+      </div>
+      <div class="mySlides fade">
+        <img src="etinbuja6.jpg" alt="Image 3">
+      </div>
+  
+      <!-- Add more images with the same structure -->
+    </div>
+  </section>
+  
+  <section id="featured-destinations">
+    <!-- Add featured destination content here -->
+  </section>
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>Welcome to our place description website. We aim to showcase the beauty and wonder of various destinations.</p>
+  </section>
+  <h1>Welcome to Ettina Buja</h1>
+  <p><h3><em>About: Charmadi Ghat is one of the many western ghats that are known for its outstanding scenery. It is a stretch of about 25 km from Kottigehara of Chikmagaluru to Charmadi of Dakshina Kannada district. To relish the beauty of the Ghat, you can trek to a series of mountains that come within the Charmadi belt.</em></h3></p>
+  
+  <p><h3><em>Ettina Bhuja meaning Ox’s shoulder is one of the unexplored treks in Karnataka. Locals call this trek as Shishila Gudda trek.</em></h3></p>
+
+  <p><h3><em>Location: Ettina Bhuja is one such mountain that is a part of the Charmadi range at an altitude of 1300 m (4,265 ft). It is situated in the Mudigere range of the Chikmagalur district.</em></h3></p>
+
+  <p><h3><em>Panoramic views of the Charmadi range and Shishila valley can be seen from the peak. It is surrounded by many more hills like Deepadakallu, Amedikallu, Ombattu Gudda and Jenukallu Gudda.</em></h3></p>
+
+  <p><h3><em> Best Time to Visit: Best time to do Ettina Bhuja trek is the post-monsoon season. Ettina Bhuja from Bhairaveshwara temple is accessible anytime after the monsoon (From September to February).</em></h3></p>
+  <p><h3><em>If you are trekking from Shishila village, you can do only after October as the current of Kapila river will be high. During the monsoon season, the trail becomes slippery. As a result, the final section of the trail becomes very difficult to climb. In summer, it becomes too hot and you will not get to see the real beauty of the Charmadi range.</em></h3></p>
+  
+  <h1>Other pictures of the place :</h1>
+  <footer>
+    <div class="footer-images">
+      <img src="sri nanya bhairaveshwara temple.jpg" alt="Image 1">
+      <p>Sri Bhairaveshwara Temple</p>
+    </div>
+    <div class="footer-images">
+      <img src="etinbujamountain3.jpg" alt="Image 2">
+      <p>Panoramic view</p>
+    </div>
+    <div class="footer-images">
+      <img src="etinbuja7.jpg" alt="Image 3">
+      <p>view from the peak</p>
+    </div>
+    <div class="footer-images">
+      <img src="etin buja forest.jpg" alt="Image 4">
+      <p>Forest</p>
+    </div>
+    <div class="footer-images">
+      <img src="from forest view.jpg" alt="Image 5">
+      <p>From Forest View</p>
+    </div>
+  </footer>
+<h1>References</h1>
+<p><a href="https://nomadsofindia.com/trekking-destinations/ettina-bhuja-trek-guide/" target="_blank">Guide For Trekking at Ettina Buja</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Ettina_Bhuja" target="_blank">Learn more about Ettina Buja on Wikipedia in English language</a></p>
+
+
+<footer1>
+  <div class="copyright">
+    <p> Thank you</p>
+
+    <p>&copy; 2023 copyright:sagar</p>
+  </div>
+</footer1>
+
+  <script>
+    var slideIndex = 0;
+    showSlides();
+  
+    function showSlides() {
+      var slides = document.getElementsByClassName("mySlides");
+      for (var i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds (2000ms)
+    }
+  </script>
+  
+</body>
+</html>
